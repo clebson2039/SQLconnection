@@ -9,6 +9,6 @@ public class Nome {
     }
 
     public static String nomeCompleto(String primeiroNome, String segundoNome){
-        return primeiroNome.concat(" ").concat(segundoNome);
+        return "Resultado do metodo " + primeiroNome.concat(" ").concat(segundoNome);
     }
 }
